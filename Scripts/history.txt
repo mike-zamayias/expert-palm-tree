@@ -1,0 +1,869 @@
+    1  exit
+    2  zsh --helpl
+    3  zsh --help
+    4  chsh -s $(which zsh)\n
+    5  exit
+    6  cd 
+    7  cd ..
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd media
+   12  ls
+   13  cd mzamayias
+   14  ls
+   15  cd Samsung
+   16  ls Samsung
+   17  sudo ls Samsung
+   18  sudo cp Samsung/home.tar /home/mzamayias/Desktop
+   19  sudo apt install rsync -y
+   20  rsync --info=progress2 /Samsung/home.tar /home/mzamayias/Desktop
+   21  rm /home/mzamayias/Desktop
+   22  rm /home/mzamayias/Desktop/home.tar
+   23  ls /home/mzamayias/Desktop
+   24  rsync --info=progress2 Samsung/home.tar /home/mzamayias/Desktop
+   25  sudo rsync --info=progress2 Samsung/home.tar /home/mzamayias/Desktop
+   26  clear
+   27  cd
+   28  cd Desktop
+   29  ls
+   30  cd 
+   31  cd Downloads
+   32  ls
+   33  bash ./Anaconda3-2020.02-Linux-x86_64.sh
+   34  sudo apt install pigz -y
+   35  clear
+   36  tar -c --use-compress-program=pigz -f 
+   37  tar --help
+   38  tar -xc --use-compress-program=pigz -f home.tar /archive
+   39  tar -c --use-compress-program=pigz -f home.tar /archive
+   40  tar -xvcf home.tar /archive
+   41  tar -xvcf home.tar 
+   42  time pigz -dc home.tar| tar xf -
+   43  ls
+   44  rm -rf media
+   45  pigz -dc home.tar | tar xf -
+   46  clear
+   47  ls
+   48  rm -rf media
+   49  tar -I pigz -xvf home.tar
+   50  exit
+   51  clear
+   52  ls
+   53  sudorm -rf media
+   54  sudo rm -rf media
+   55  cd
+   56  cd ..
+   57  cd media
+   58  ls
+   59  cd mz
+   60  cd mzamayias
+   61  LS
+   62  ls
+   63  cd Samsung
+   64  cd
+   65  clear
+   66  cd Downloads
+   67  sudo apt install ./codium_1.43.2-1585083818_amd64.deb -y
+   68  exit
+   69  λσ
+   70  ls
+   71  tar --use-compress-program=pigz home.tar /home/mzamayias/Desktop
+   72  alias tar='tar --use-compress-program=pigz'\n
+   73  tar -c /home/mzamayias/Desktop -xvf
+   74  tar --help
+   75  tar -c /home/mzamayias/Desktop -xf
+   76  alias tar
+   77  unalias tar
+   78  alias tar
+   79  clear
+   80  tar -c /home/mzamayias/Desktop -xvf home.tar
+   81  
+   82  
+   83  cd ..
+   84  cd media/mzamayias/Samsung
+   85  clear
+   86  ls
+   87  
+   88  
+   89  cd /media/mzamayias/Samsung
+   90  tar --use-compress-program=pigz -xvf home.tar
+   91  clear
+   92  ls
+   93  rm -rf media
+   94  tar --use-compress-program="pigz --best --recursive | pv" -cf home.tar
+   95  tar --use-compress-program="pigz -xf | pv" -cf home.tar
+   96  tar --help
+   97  tar --use-compress-program="pigz -x | pv" -cf home.tar
+   98  tar --use-compress-program="pigz | pv" -xcf home.tar
+   99  tar --use-compress-program="pigz | pv" -xf home.tar
+  100  tar --use-compress-program="pigz --best --recursive | pv" -xf home.tar
+  101  tar --use-compress-program="pigz --best | pv" -xf home.tar
+  102  tar --use-compress-program="pigz | pv" -xf home.tar
+  103  tar --use-compress-program=pigz -xf home.tar
+  104  rm -rf media
+  105  tar --use-compress-program=bzip2 -xf home.tar
+  106  tar --use-compress-program=gzip2 -xf home.tar
+  107  tar --use-compress-program=xf -xf home.tar
+  108  tar --use-compress-program=pigz -xf home.tar
+  109  clear
+  110  rm -rf media
+  111  time tar -xf home.tar /archive
+  112  time tar --use-compress-program=pigz -xf home.tar
+  113  python wallpaper.py
+  114  lear
+  115  clear
+  116  python wallpaper.py
+  117  codium wall
+  118  codium wallpaper
+  119  codium wallpaper.py
+  120  python wallpaper.py
+  121  pwd
+  122  ls
+  123  python wallpaper.py
+  124  clear
+  125  cd Desktop
+  126  codium -n task2.py
+  127  python task2.py
+  128  sudo apt install steam-installer -y
+  129  sudo codium -n /usr/share/themes/Materia-compact/gnome-shell/gnome-shell.css
+  130  sudo codium -n /usr/share/themes/Materia-compact/gnome-shell/gnome-shell.css --user-data-dir
+  131  clear
+  132  exit
+  133  sudo add-apt-repository ppa:cappelikan/ppa\n
+  134  apt list --upgrable
+  135  apt list --upgradable
+  136  sudo apt update
+  137  apt list --upgradable
+  138  codium --version
+  139  sudo apt-mark hold codium
+  140  sudo apt-mark showhold
+  141  sudo apt install mainline -y
+  142  uname -r
+  143  exot
+  144  exit
+  145  curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - \n
+  146  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list\n
+  147  sudo apt update
+  148  sudo apt install spotify-client -y
+  149  clear
+  150  cd Desktop
+  151  ls
+  152  mkdir time_tracker
+  153  mv time_logger.py time_logger.py
+  154  mv time_logger.py time_tracker
+  155  cd time_tracker
+  156  touch time_logs.csv
+  157  codium -n .
+  158  python time_logger.py
+  159  clear
+  160  python time_logger.py
+  161  mv time_logs.csv time_logs.json
+  162  codium time_log
+  163  codium time_logs.json
+  164  clear
+  165  python time_logger.py
+  166  ls
+  167  clear
+  168  python time_logger.py
+  169  \tclear
+  170  python 
+  171  clear
+  172  python
+  173  lear
+  174  clear
+  175  python time_logger.py
+  176  clear
+  177  python time_logger.py
+  178  clear
+  179  python time_logger.py
+  180  source /home/mzamayias/anaconda3/bin/activate
+  181  conda activate base
+  182  python time_logger.py
+  183  clear && python time_logger.py
+  184  python time_logger.py
+  185  cleear
+  186  clear
+  187  cleear
+  188  clear
+  189  python time_logger.py
+  190  cd Desktop
+  191  ls
+  192  cd Wallpapers
+  193  ls
+  194  python wallpaper.py
+  195  codium -n .
+  196  python wallpaper.py
+  197  cd
+  198  sudo apt install audacity -y
+  199  sudo apt install transmission -y
+  200  cd Audiobooks
+  201  ls
+  202  lame --ti atomic.jpg 'Atomic Habits Tiny Changes Remarkable Results.mp3'
+  203  sudo apt install lame -y
+  204  lame --ti atomic.jpg 'Atomic Habits Tiny Changes Remarkable Results.mp3'
+  205  lame --ti indistractable.jpg 'Indistractable How to Control Your Attention and Choose Your Life.mp3'
+  206  clear
+  207  exit
+  208  sudo apt install kid3 -y
+  209  sudo apt remove --purge -y kid3
+  210  sudo apt install -y easytag 
+  211  sudo apt autoremove -y
+  212  pwd
+  213  ls
+  214  exit
+  215  cd /home/mzamayias/Desktop/Wallpapers && nohup python wallpaper.py &
+  216  cd /home/mzamayias/Desktop/Wallpapers && nohup python wallpaper.py & && clear
+  217  sudo apt remove gnome-weather -y
+  218  sudo apt autoremove -y
+  219  sudo apt update
+  220  apt list --upgradable
+  221  sudo apt upgrade -y
+  222  clear
+  223  crontab -l
+  224  which codium
+  225  export EDITOR=/usr/bin/codium
+  226  crontab -e
+  227  crontab -l
+  228  crontab -e
+  229  ls
+  230  chmod +x change_wallpapers.sh
+  231  pwd
+  232  crontab -l
+  233  crontab -e
+  234  which nano
+  235  export EDITOR=/usr/bin/nano
+  236  crontab -e
+  237  which nano
+  238  crontab -e
+  239  crontab -l
+  240  crontab -e
+  241  crontab -l
+  242  clear
+  243  crontab -l
+  244  /home/mzamayias/Scripts/change_wallpapers.sh
+  245  crontab -l
+  246  /home/mzamayias/Scripts/change_wallpapers.sh
+  247  bash ./home/mzamayias/Scripts/change_wallpapers.sh
+  248  bash /home/mzamayias/Scripts/change_wallpapers.sh
+  249  /home/mzamayias/Scripts/change_wallpapers.sh
+  250  crontab -l
+  251  crontab -e
+  252  reboot
+  253  /home/mzamayias/Scripts/change_wallpapers.sh
+  254  sudo apt install slack -y
+  255  sudo apt install slack-desktop -y
+  256  sudo apt remove -y slack
+  257  sudo apt install slack-desktop -y
+  258  sudo apt autoremove -y
+  259  sudo apt update
+  260  apt list --upgradable
+  261  sudo apt dist-upgrade -y
+  262  sudo apt install inkscape-y
+  263  sudo apt install inkscape -y
+  264  sudo apt install gimp -y
+  265  cd Documents
+  266  ls
+  267  cd selfie
+  268  ls
+  269  ls -l
+  270  mv 00000PORTRAIT_00000_BURST20200519103716660.jpg selfie.jpg
+  271  ls
+  272  convert selfie.jpg -quality 50% selfie-50.jpg
+  273  sudo apt install gnome-shell-extension-ubuntu-dock -y
+  274  sudo apt install gnome-shell-extension-appindicator -y
+  275  /home/mzamayias/Scripts/change_wallpapers.sh
+  276  source /home/mzamayias/anaconda3/bin/activate
+  277  conda activate base
+  278  python activity_tracker.py
+  279  OA
+  280  python activity_tracker.py
+  281  sudo apt update -y
+  282  apt list --upgradable
+  283  sudo apt upgrade -y && sudo apt install apt-transport-https -y
+  284  sudo apt update
+  285  sudo apt install dart -y
+  286  which dart
+  287  export PATH="$PATH:/usr/bin/dart"
+  288  cd /usr/bin/dart
+  289  dart
+  290  echo 'export PATH="$PATH:/usr/bin/dart"' >> ~/.profile
+  291  dart
+  292  sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386 -y
+  293  ls /usr/bin -1
+  294  ls
+  295  ls Downloads/android-studio-ide-193.6514223-linux -1
+  296  ls Downloads/android-studio-ide-193.6514223-linux/android-studio ~/
+  297  mv Downloads/android-studio-ide-193.6514223-linux/android-studio ~/
+  298  ls
+  299  cd android-studio
+  300  ls
+  301  clear
+  302  ls -1
+  303  cd bin
+  304  ./studio.sh
+  305  cd
+  306  lear
+  307  clear
+  308  git clone https://github.com/flutter/flutter.git -b stable --depth 1\n
+  309  cd flutter
+  310  ls
+  311  cd ..
+  312  rm -rf flutter
+  313  cd Repositories
+  314  git clone https://github.com/flutter/flutter.git -b stable --depth 1\n
+  315  cd flutter
+  316  ls
+  317  cd bin
+  318  wd
+  319  pwd
+  320  export PATH="$PATH:/home/mzamayias/Repositories/flutter/bin"
+  321  echo 'export PATH="$PATH:/home/mzamayias/Repositories/flutter/bin"' >> ~/.profile
+  322  exit
+  323  which dart
+  324  which flutter
+  325  flutter 
+  326  cd Repositories/flutter/bin
+  327  ls
+  328  flutter
+  329  ./flutter
+  330  flutter
+  331  cd
+  332  nano .profile
+  333  exit
+  334  flutter
+  335  nano .profile
+  336  flutter
+  337  exit
+  338  flutter
+  339  nano .profile
+  340  exit
+  341  fl
+  342  flutter
+  343  flutter --doctor
+  344  flutter --help
+  345  flutter dcotor
+  346  flutter doctor
+  347  flutter doctor --android-licenses
+  348  flutter doctor
+  349  exit
+  350  history
+  351  history | grep 'nohup'
+  352  history | grep 'sh'
+  353  codium -n /home/mzamayias/Scripts/change_wallpapers.sh /home/mzamayias/Desktop/Wallpapers/wallpaper.py
+  354  /home/mzamayias/Scripts/change_wallpapers.sh
+  355  ps -ef
+  356  ps -ef | grep 'nohup'
+  357  kill 5326
+  358  /home/mzamayias/Scripts/change_wallpapers.sh
+  359  update-rc.d cron defaults
+  360  systemctl enable crond.service
+  361  sudo systemctl enable cron.service
+  362  sudo systemctl start cron.service
+  363  sudo systemctl stop cron.service
+  364  sudo systemctl restart cron.service
+  365  sudo systemctl status cron.service
+  366  crontab -e
+  367  crontab -i
+  368  crontab -l
+  369  reboot
+  370  codium -n /home/mzamayias/Scripts/change_wallpapers.sh /home/mzamayias/Desktop/Wallpapers/wallpaper.py
+  371  ls /bin
+  372  ls /bin -1
+  373  ls /bin -1 | grep 'sh'
+  374  exit
+  375  cd Scripts
+  376  sudo chmod +x change_wallpapers.sh
+  377  reboot
+  378  sudo reboot
+  379  sudo nano /etc/systemd/system/my_startup.service
+  380  cd Scripts
+  381  clear
+  382  ls
+  383  touch startup_scripts.sh
+  384  codium startup_scripts.sh
+  385  codium change_wallpapers.sh 
+  386  pwd
+  387  sudo chmod +x startup_scripts.sh
+  388  ./startup_scripts.sh
+  389  pwd
+  390  ls
+  391  systemctl status my_startup.service
+  392  sudo systemctl enable my_startup.service
+  393  systemctl status my_startup.service
+  394  exit
+  395  cd Scripts
+  396  ls
+  397  codium -n ./*
+  398  ./startup_scripts.sh
+  399  systemctl
+  400  clear
+  401  systemctl status my_startup.service
+  402  codium startup_scripts.sh
+  403  clear
+  404  crontab -l
+  405  exit
+  406  crontab -e
+  407  ls Scripts
+  408  crontab -e
+  409  crontab -l
+  410  crontab -e
+  411  crontab -r
+  412  crontab -l
+  413  crontab -
+  414  crontab -l
+  415  crontab -e
+  416  clear
+  417  crontab -l
+  418  ls Desktop/Wallpapers -1
+  419  cd Desktop/Wallpapers
+  420  ls -1
+  421  rm wallpaper_startup.sh
+  422  ls -1
+  423  clear
+  424  ls -1
+  425  wpd
+  426  pwd
+  427  crontab -e
+  428  chmod +x wallpaper.py
+  429  crontab -e
+  430  reboot
+  431  cd /etc/cron
+  432  cd /etc/cron/
+  433  ls /etc
+  434  ls /etc | grep 'cron'
+  435  cd /etc
+  436  ls /etc | grep 'cron' | ls -1
+  437  ls /etc | grep 'cron' | ls $ -1
+  438  ls -1 "$( ls /etc | grep 'cron' )"
+  439  ls -1 "$(ls /etc | grep 'cron')"
+  440  ls /etc | grep 'cron'
+  441  clear
+  442  ls /etc | grep 'cron'
+  443  ls cron.d
+  444  ls cron.daily
+  445  ls cron.hourly
+  446  ls cron.monthly
+  447  ls crontab
+  448  ls crontab/
+  449  ls crontab
+  450  ls -1
+  451  ls -1 cron.weekly
+  452  exit
+  453  crontab -e
+  454  cd Desktop
+  455  ls
+  456  mkdir scores
+  457  cd scores
+  458  codium -n .
+  459  touch script.py
+  460  codium script.py
+  461  python
+  462  lear
+  463  clear
+  464  python script.py
+  465  OA
+  466  python script.py
+  467  pip install varname
+  468  python script.py
+  469  python --version
+  470  pip --version
+  471  ls
+  472  codium script.py
+  473  exit
+  474  cd Desktop/scores
+  475  python script.py
+  476  clear
+  477  cd Scripts
+  478  ls
+  479  ./startup_scripts.sh
+  480  sudo apt install kazam -y
+  481  cd
+  482  clear
+  483  source /home/mzamayias/anaconda3/bin/activate
+  484  conda activate base
+  485  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  486  clear
+  487  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  488  home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  489  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  490  source /home/mzamayias/anaconda3/bin/activate
+  491  conda activate base
+  492  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  493  python
+  494  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  495  clear
+  496  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  497  clear
+  498  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/solve.py
+  499  clear
+  500  exit
+  501  python solve.py
+  502  clear && python solve.py
+  503  sudo apt install lm-sensors -y
+  504  ./Scripts/startup_scripts.sh
+  505  clear && python solve.py
+  506  cd Desktop/scores
+  507  clear && python solve.py
+  508  clear
+  509  clear && python solve.py
+  510  216 000 000
+  511  clear && python solve.py
+  512  hisotry
+  513  history
+  514  touch p_solve.py
+  515  codium p_solve.py
+  516  python p_solve.py
+  517  clear
+  518  python p_solve.py
+  519  ./Scripts/startup_scripts.sh
+  520  python p_solve.py
+  521  clear
+  522  python p_solve.py
+  523  lear
+  524  clear
+  525  python p_solve.py
+  526  clear
+  527  python p_solve.py
+  528  python solve.py
+  529  python p_solve.py
+  530  ./Scripts/startup_scripts.sh
+  531  exit
+  532  ls
+  533  python solve.py
+  534  touch data.txt
+  535  clear
+  536  ls
+  537  python solve.py
+  538  codium data.txt
+  539  clear
+  540  python solve.py
+  541  conda install numba & conda install cudatoolkit
+  542  python solve.py
+  543  clear && python solve.py
+  544  source /home/mzamayias/anaconda3/bin/activate
+  545  conda activate base
+  546  clear
+  547  ls
+  548  cd Desktop/scores
+  549  ls
+  550  clear
+  551  clear && python solve.py
+  552  clear && clear && python solve.py
+  553  clear && python solve.py
+  554  touch data.csv
+  555  clear && python solve.py
+  556  ls
+  557  clear
+  558  exit
+  559  codium data.csv
+  560  touch plot_solve.py
+  561  codium plot_solve.py
+  562  bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+  563  cd Desktop/scores
+  564  clear && python plot_solve.py
+  565  clear && python plot_solve.py data.csv
+  566  clear && python plot_solve.py
+  567  cd Desktop/scores
+  568  python plot_solve.py
+  569  sudo cp Humor-Sans.ttf /usr/share/fonts
+  570  fc-cache -f -v 
+  571  $ rm ~/.matplotlib/fontList.cache
+  572  rm ~/.matplotlib/fontList.cache
+  573  python plot_solve.py
+  574  rm ~/.matplotlib/fontList.cache
+  575  python plot_solve.py
+  576  rm ~/.matplotlib/fontList.cache
+  577  python plot_solve.py
+  578  python plot_solve.pysource /home/mzamayias/anaconda3/bin/activate
+  579  conda activate base
+  580  python plot_solve.pysource /home/mzamayias/anaconda3/bin/activate
+  581  cd Desktop/scores
+  582  python plot_solve.py
+  583  clear
+  584  ls
+  585  mkdir tex
+  586  mv temp.tex tex
+  587  cd tex
+  588  pdflatex temp.tex
+  589  convert -density 900 temp.pdf -quality 100 temp.png
+  590  codium /etc/ImageMagick-6/policy.xml
+  591  convert -density 900 temp.pdf -quality 100 temp.png
+  592  convert -density 900 temp.pdf -quality 100 -colorspace RGB temp.png
+  593  pdflatex temp.tex
+  594  convert -density 900 temp.pdf -quality 100 -colorspace RGB temp.png
+  595  pdflatex temp.tex
+  596  convert -density 900 temp.pdf -quality 100 -colorspace RGB temp.png
+  597  lualatex temp.pdf
+  598  pdflatex temp.tex
+  599  ls
+  600  convert -density 900 temp.pdf -quality 100 -colorspace RGB temp.png
+  601  cd ..
+  602  convert -density 900 temp.pdf -quality 100 -colorspace RGB temp.png
+  603  adb shell
+  604  sudo apt install htop -y
+  605  htop
+  606  source /home/mzamayias/anaconda3/bin/activate
+  607  conda activate base
+  608  source /home/mzamayias/anaconda3/bin/activate
+  609  conda activate base
+  610  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/plot_solve.py
+  611  cd Desktop/scores
+  612  ls
+  613  clear
+  614  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/scores/plot_solve.py
+  615  pwd
+  616  cd /home/mzamayias/Desktop/scores
+  617  clear
+  618  python plot_solve.py
+  619  history | grep "startup_scripts"
+  620  ./Scripts/startup_scripts.sh
+  621  codium -n ./Scripts/startup_scripts.sh
+  622  codium -n ./Scripts/change_wallpapers.sh
+  623  ./Scripts/change_wallpapers.sh
+  624  ./Scripts/startup_scripts.sh
+  625  ./Scripts/change_wallpapers.sh
+  626  ./Scripts/startup_scripts.sh
+  627  ./Scripts/change_wallpapers.sh
+  628  ./Scripts/startup_scripts.sh
+  629  ./Scripts/change_wallpapers.sh
+  630  cd Scripts
+  631  codium -n .
+  632  codium *
+  633  touch alarm.sh
+  634  codium alarm.sh
+  635  cd
+  636  cd Desktop
+  637  mkdir Alarms
+  638  cd Alarms
+  639  ls
+  640  touch alarm.py
+  641  codium alarm.py
+  642  clear
+  643  source /home/mzamayias/anaconda3/bin/activate
+  644  conda activate base
+  645  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/Alarms/alarm.py
+  646  ls
+  647  sudo apt install youtube-dl -y
+  648  clear
+  649  youtube-dl --list-format https://www.youtube.com/watch\?v\=VH90eu-2rK8
+  650  cd 
+  651  cd Videos
+  652  clear
+  653  mkdir YouTube
+  654  cd YouTube
+  655  mkdir 'Casey Neistat'
+  656  cd 'Casey Neistat'
+  657  clear
+  658  cd ..
+  659  youtube-dl -f 'bestvideo+bestaudio' -o '%(title)s-%(id)s.%(ext)s' \\nhttps://www.youtube.com/watch\?v\=Lg_6wJV6Buk \\nhttps://www.youtube.com/watch\?v\=mk_3NMdPz1I \\nhttps://www.youtube.com/watch\?v\=g3s0--LcgQw \\nhttps://www.youtube.com/watch\?v\=ZzBHjMYN29Y \\nhttps://www.youtube.com/watch\?v\=C-Cvl3_CH2A
+  660  clear
+  661  youtube-dl -f 'bestvideo+bestaudio' -o '%(title)s.%(ext)s' \\nhttps://www.youtube.com/watch\?v\=Lg_6wJV6Buk \\nhttps://www.youtube.com/watch\?v\=mk_3NMdPz1I \\nhttps://www.youtube.com/watch\?v\=g3s0--LcgQw \\nhttps://www.youtube.com/watch\?v\=ZzBHjMYN29Y \\nhttps://www.youtube.com/watch\?v\=C-Cvl3_CH2A
+  662  youtube-dl -f 'bestvideo+bestaudio' -o '%(title)s.%(ext)s' \\nhttps://youtu.be/jG7dSXcfVqE \\nhttps://www.youtube.com/watch\?v\=yy9o2ImWtm0
+  663  clear
+  664  ls
+  665  vlc alarm.xspf
+  666  cvlc alarm.xspf
+  667  ls
+  668  ./startup_scripts.sh
+  669  clear
+  670  chmod +x alarm.sh
+  671  clear
+  672  ls
+  673  clear
+  674  ./startup_scripts.sh
+  675  cd ..
+  676  cd Wallpapers
+  677  ls
+  678  codium wallpaper.
+  679  codium wallpaper.py
+  680  exit
+  681  cd 
+  682  cd Desktop/Alarms
+  683  ls
+  684  chmod +x alarm.py
+  685  ls
+  686  ./startup_scripts.sh
+  687  ./Scripts/startup_scripts.sh
+  688  ./Scripts/alarm.sh
+  689  ./Scripts/startup_scripts.sh
+  690  source /home/mzamayias/anaconda3/bin/activate
+  691  conda activate base
+  692  python plot_solve.py
+  693  source /home/mzamayias/anaconda3/bin/activate
+  694  conda activate base
+  695  python plot_solve.py
+  696  ls
+  697  pwd
+  698  clear
+  699  python solve.py
+  700  clear && python solve.py
+  701  clear
+  702  clear && python solve.py
+  703  ./Scripts/startup_scripts.sh
+  704  sudo apt remove geary -y
+  705  ψλεαρ
+  706  clear
+  707  exit
+  708  history | grep 'font'
+  709  history | grep 'font*cache'
+  710  fc-cache -f -v
+  711  codium -n .
+  712  rm -rf ~/.kite
+  713  ~/.local/share/kite/uninstall
+  714  clear
+  715  source /home/mzamayias/anaconda3/bin/activate
+  716  conda activate base
+  717  python formulae.py
+  718  adb shell
+  719  ./Scripts/startup_scripts.sh
+  720  codium -n . Desktop/Alarms/alarm.py
+  721  ./Scripts/startup_scripts.sh
+  722  ./Scripts/alarm.sh
+  723  codium -n Desktop/Alarms/alarm.py
+  724  clear
+  725  cd .local/share/gnome-shell/extensions
+  726  ls
+  727  rm -rf workspace-grid@mathematical.coffee.gmail.com
+  728  exit
+  729  ls Documents
+  730  cd Documents
+  731  ckear
+  732  clear
+  733  mkdir Repositories
+  734  cd Re
+  735  cd Repositories
+  736  git clone https://github.com/mike-zamayias/glowing-sniffle.git
+  737  cd glowing-sniffle
+  738  codium -n .
+  739  clear
+  740  ls -1a
+  741  ls ./ -1a
+  742  ls ../ -1a
+  743  cd 
+  744  cd Desktop
+  745  touch f9.py
+  746  codium f9.py
+  747  pip install pyinput
+  748  pip install pynput
+  749  source /home/mzamayias/anaconda3/bin/activate
+  750  conda activate base
+  751  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/f9.py
+  752  ./Scripts/startup_scripts.sh
+  753  cd Documents/Repositories/glowing-sniffle
+  754  clear
+  755  xrandr -q | grep " connected"\n
+  756  xrandr --output eDP-1-1 --brightness 1
+  757  xrandr --output eDP-1-1 --brightness 0
+  758  xrandr --output eDP-1-1 --brightness 1
+  759  sudo gpasswd -a $USER input\n
+  760  reboot 
+  761  sudo apt install xdotool wmctrl libinput-tools -y
+  762  clear
+  763  ls -1
+  764  ls
+  765  ls -1
+  766  cd Repositories
+  767  ls
+  768  clear
+  769  ls
+  770  git clone https://github.com/bulletmark/libinput-gestures.git\ncd libinput-gestures
+  771  sudo ./libinput-gestures-setup install
+  772  libinput-gestures-setup autostart\nlibinput-gestures-setup start\n
+  773  sudo apt install python3 python3-setuptools xdotool python3-gi libinput-tools python-gobject -y
+  774  cd ..
+  775  git clone https://gitlab.com/cunidev/gestures\ncd gestures\nsudo python3 setup.py install
+  776  ./Scripts/startup_scripts.sh
+  777  sudo apt install build-essential cmake cmake-data debhelper dbus google-mock \\n    libboost-dev libboost-filesystem-dev libboost-log-dev libboost-iostreams-dev \\n    libboost-program-options-dev libboost-system-dev libboost-test-dev \\n    libboost-thread-dev libcap-dev libsystemd-dev libegl1-mesa-dev \\n    libgles2-mesa-dev libglm-dev libgtest-dev liblxc1 \\n    libproperties-cpp-dev libprotobuf-dev libsdl2-dev libsdl2-image-dev lxc-dev \\n    pkg-config protobuf-compiler python-minimal -y
+  778  cd Repositories
+  779  git clone https://github.com/anbox/anbox.git\n cd anbox\n mkdir build\n cd build\n cmake ..\n make\n
+  780  sudo make install
+  781  ls
+  782  ls -1
+  783  cd android
+  784  ls -1
+  785  cd ..
+  786  ls -1
+  787  ls -1 tests
+  788  ls -1 Testing
+  789  ls -1 external
+  790  ls -1 external/xdg
+  791  sudo apt install anbox -y
+  792  sudo apt autoremove
+  793  cd Repositories
+  794  ls 1
+  795  ls -1
+  796  rm -rf anbox
+  797  clear
+  798  ls 
+  799  clear
+  800  exit
+  801  sudo apt remove anbox -y
+  802  source /home/mzamayias/anaconda3/bin/activate
+  803  conda activate base
+  804  cd Desktop
+  805  ls
+  806  gcc -o det det.c && ./det
+  807  gcc -o det.c det && ./det
+  808  gcc -o det det.c && ./det
+  809  clear && gcc -o det det.c && ./det
+  810  python det.py
+  811  clear && gcc -o det det.c && ./det
+  812  clear
+  813  gcc -o det det.c && ./det
+  814  clear
+  815  gcc -o det det.c && ./det
+  816  gcc -o det det.c -lm && ./det
+  817  gcc -o tasks_series_1 tasks_series_1.c -lm && ./tasks_series_1
+  818  rm det
+  819  rm tasks_series_1
+  820  gcc -o tasks_series_1 tasks_series_1.c -lm && ./tasks_series_1 && rm tasks_series_1
+  821  clear
+  822  gcc -o tasks_series_1 tasks_series_1.c -lm && ./tasks_series_1 && rm tasks_series_1
+  823  clear
+  824  gcc -o tasks_series_1 tasks_series_1.c -lm && ./tasks_series_1 && rm tasks_series_1
+  825  clear
+  826  gcc -o tasks_series_1 tasks_series_1.c -lm && ./tasks_series_1 && rm tasks_series_1
+  827  clear
+  828  gcc -o tasks_series_1 tasks_series_1.c -lm && ./tasks_series_1 && rm tasks_series_1
+  829  python det.py
+  830  OA
+  831  python det.py
+  832  clear
+  833  python det.py
+  834  clear
+  835  python det.py
+  836  clear
+  837  python det.py
+  838  clear
+  839  python det.py
+  840  ./Scripts/startup_scripts.sh
+  841  exit
+  842  ./Scripts/startup_scripts.sh
+  843  pip install autoviz
+  844  codium Desktop/ -n .
+  845  codium Scripts/ -n 
+  846  cd Scripts
+  847  ./Scripts/startup_scripts.sh
+  848  ./startup_scripts.sh
+  849  codium -n .\n
+  850  source /home/mzamayias/anaconda3/bin/activate
+  851  conda activate base
+  852  /home/mzamayias/anaconda3/bin/python /home/mzamayias/Desktop/feed/parser.py
+  853  codium -n Scripts Desktop
+  854  ./Scripts/startup_scripts.sh
+  855  exit
+  856  ./Scripts/startup_scripts.sh
+  857  exit
+  858  uname -r
+  859  exit
+  860  xrandr --current
+  861  xrandr --output eDP1 --brightness 1.2
+  862  xrandr --output eDP-1 --brightness 1.2
+  863  xrandr --output eDP-1 --brightness 1.5
+  864  xrandr --output eDP-1 --gamma 0.5:1.0:1.0
+  865  xrandr --output eDP-1 --gamma 1.0:1.0:1.0
+  866  xrandr --output eDP-1 --brightness 1
+  867  xrandr --output eDP-1 --brightness 1.5
+  868  xrandr --output eDP-1 --gamma 0.8:0.8:0.8
+  869  cd Scripts
