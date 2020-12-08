@@ -1,0 +1,1390 @@
+: 1606100448:0;chsh -s $(which zsh)
+: 1606100451:0;clear
+: 1606100496:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+: 1606100562:0;nano .zshrc
+: 1606100596:0;exit
+: 1606100828:0;clear
+: 1606101517:0;sudo apt install ttf-mscorefonts-installer fonts-firacode -y
+: 1606101691:0;fc-cache --help
+: 1606101696:0;fc-cache -rv
+: 1606102480:0;sudo apt install ttf-mscorefonts-installer -y
+: 1606104232:0;p10k-configure
+: 1606104238:0;p10k-conf
+: 1606104243:0;p10k
+: 1606104248:0;p10k configure
+: 1606104333:0;clear
+: 1606105360:0;sudo apt install fonts-firacode -y
+: 1606105375:0;fc-cache -f
+: 1606105729:0;cd Development
+: 1606105732:0;git clone https://github.com/flutter/flutter.git -b stable --depth 1
+: 1606105740:0;clear
+: 1606105793:0;sexport PATH="$PATH:`pwd`/flutter/bin"
+: 1606105810:0;echo 'export PATH="$PATH:`pwd`/flutter/bin"'
+: 1606105819:0;echo "$PATH:`pwd`/flutter/bin"
+: 1606105827:0;echo "`pwd`/flutter/bin"
+: 1606105877:0;echo 'export PATH="/home/mzamayias/Development/flutter/bin"' >> ~/.zshrc
+: 1606105891:0;nano ~/.zsh
+: 1606105895:0;nano ~/.zshrc
+: 1606105933:0;export PATH="$PATH:`pwd`/flutter/bin"
+: 1606105935:0;flutter
+: 1606106006:0;flutter precache
+: 1606106052:0;clear
+: 1606106056:0;flutter doctor
+: 1606107156:0;flutter emulators
+: 1606107174:0;flutter emulators Pixel_3a_API_30_x86
+: 1606107183:0;flutter emulators --launch Pixel_3a_API_30_x86
+: 1606107219:0;flutter doctor
+: 1606107286:0;exit
+: 1606107293:0;flutter
+: 1606107331:0;cd .jdks/openjdk-15.0.1/bin
+: 1606107332:0;clear
+: 1606107340:0;pwd
+: 1606107685:0;flutter doctor
+: 1606107701:0;cd
+: 1606107721:0;cd Development/flutter/bin
+: 1606107724:0;clear
+: 1606107724:0;pwd
+: 1606107783:0;cd
+: 1606107798:0;source .zshrc
+: 1606107815:0;code .zshrc
+: 1606107926:0;echo $PATH
+: 1606107945:0;clear
+: 1606107947:0;source .zshrc
+: 1606107955:0;exit
+: 1606107965:0;flutter
+: 1606107975:0;source .zshrc
+: 1606108046:0;echo $PATH
+: 1606108060:0;source .zshrc
+: 1606108061:0;echo $PATH
+: 1606108070:0;clear
+: 1606108079:0;exit
+: 1606108083:0;clear
+: 1606108170:0;PATH=/bin:/usr/bin:/usr/local/bin:${PATH}\
+export PATH\
+
+: 1606108171:0;clear
+: 1606108175:0;flutter
+: 1606108178:0;exit
+: 1606108182:0;clear
+: 1606108219:0;exit
+: 1606108316:0;exec /bin/zsh
+: 1606108337:0;exec /usr/bin/zsh\
+
+: 1606108339:0;clear
+: 1606108341:0;exit
+: 1606108348:0;clear
+: 1606108517:0;nano .zshrc
+: 1606108560:0;source ~/.bash_profile
+: 1606108573:0;source ~/.bashrc
+: 1606108584:0;source ~/.zshrc
+: 1606108598:0;which zsh
+: 1606108603:0;where zsh
+: 1606108607:0;ls -1a
+: 1606108615:0;cd /usr/bin
+: 1606108616:0;ls
+: 1606108619:0;cd ..
+: 1606108620:0;ls
+: 1606108622:0;clear
+: 1606108713:0;ls
+: 1606108725:0;cd /sbin
+: 1606108726:0;clear
+: 1606108727:0;ls
+: 1606108731:0;cd..
+: 1606108734:0;bash
+: 1606108736:0;cd
+: 1606108739:0;clear
+: 1606108797:0;ls
+: 1606108807:0;cd Development
+: 1606108809:0;where dart
+: 1606108813:0;which dart
+: 1606108818:0;ls
+: 1606108823:0;cd android-studio
+: 1606108824:0;ls
+: 1606108828:0;cd ..
+: 1606108831:0;rm -rf android-studio
+: 1606108832:0;clear
+: 1606108833:0;ls
+: 1606108868:0;cd flutter
+: 1606108871:0;cd ..
+: 1606108940:0;sudo apt update
+: 1606108965:0;sudo apt install -y apt-transport-https
+: 1606108975:0;sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -'
+: 1606108981:0;sudo sh -c 'wget -qO- https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list'\
+
+: 1606108988:0;sudo apt update
+: 1606109016:0;sudo apt install -y dart
+: 1606109060:0;echo 'export PATH="$PATH:`pwd`/bin"' >> ~/.zshrc
+: 1606109067:0;echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.profile
+: 1606109117:0;echo 'export PATH="$PATH:`(pwd)`/bin"' >> ~/.zshrc
+: 1606109137:0;echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.zshrc
+: 1606109143:0;pwd
+: 1606109155:0;echo 'export PATH="$PATH:/home/mzamayias/Development/flutter"' >> ~/.zshrc
+: 1606109164:0;clear
+: 1606109173:0;source ~/.zshrc
+: 1606109180:0;which flutter
+: 1606109190:0;source ~/.zshrc
+: 1606109196:0;which flutter
+: 1606109198:0;which flutter dart
+: 1606109200:0;exit
+: 1606109236:0;flutter doctor
+: 1606109286:0;ls .local/share/JetBrains/Toolbox/apps/AndroidStudio/
+: 1606109294:0;ls .local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0
+: 1606109303:0;ls .local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283
+: 1606109309:0;ls .local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283.plugins
+: 1606109319:0;ls .local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283
+: 1606109382:0;ls .local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/
+: 1606109386:0;cd .local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/
+: 1606109391:0;cd 201.6953283
+: 1606109393:0;clear
+: 1606109393:0;ls
+: 1606109401:0;pwd
+: 1606109426:0;flutter config --android-studio-dir="/home/mzamayias/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283"
+: 1606109434:0;flutter doctor
+: 1606109445:0;flutter doctor --android-licenses
+: 1606109455:0;clear
+: 1606109506:0;flutter doctor
+: 1606109520:0;flutter config --help
+: 1606109547:0;ls
+: 1606109548:0;cd ..
+: 1606109550:0;ls
+: 1606109553:0;pwd
+: 1606109568:0;flutter config --android-studio-dir="/home/mzamayias/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0"
+: 1606109572:0;flutter doctor
+: 1606109607:0;cd ../..
+: 1606109609:0;clear
+: 1606109609:0;ls
+: 1606109630:0;rm -rf AndroidStudio
+: 1606109632:0;clear
+: 1606109634:0;cd
+: 1606109635:0;ls
+: 1606109639:0;ls Android
+: 1606109640:0;ls
+: 1606109644:0;rm -rf Android
+: 1606109646:0;clear
+: 1606109647:0;ls
+: 1606109652:0;flutter doctor
+: 1606109658:0;clear
+: 1606109669:0;flutter config --android-studio-dir=""
+: 1606109674:0;flutter doctor
+: 1606109934:0;pwd
+: 1606109941:0;flutter config --android-studio-dir="/home/mzamayias/Development/android-studio"
+: 1606109945:0;flutter doctor
+: 1606110251:0;flutter doctor --android-licenses
+: 1606110261:0;flutter doctor
+: 1606110329:0;ls ".config/Android Open Source Project/"
+: 1606110365:0;ls ".config/Google\
+\
+"
+: 1606110376:0;ls ".config/Google/AndroidStudio4.1/
+: 1606110378:0;clear
+: 1606110379:0;ls
+: 1606110547:0;ls ~/.local/share/JetBrains/
+: 1606110636:0;flutter --help
+: 1606110660:0;flutter doctor
+: 1606110668:0;flutter emulators
+: 1606110678:0;flutter emulators --launch Pixel_3a_API_30_x86
+: 1606110699:0;flutter config --help
+: 1606110706:0;ls
+: 1606110708:0;ls Android
+: 1606110746:0;flutter config --android-sdk="/home/mzamayias/Android/Sdk"
+: 1606110752:0;flutter emulators --launch Pixel_3a_API_30_x86
+: 1606110761:0;flutter doctor
+: 1606110824:0;rm -rf Development/android-studio
+: 1606110849:0;rm -rf .local/share/Google/AndroidStudio4.1
+: 1606110869:0;rm -rf .local/share/JetBrains
+: 1606112863:0;flutter doctor
+: 1606112876:0;flutter config --android-sdk=""
+: 1606112889:0;flutter config --android-studio-dir=""
+: 1606112892:0;clear
+: 1606112897:0;flutter doctor
+: 1606113013:0;sudo apt install steam-installer slack-desktop discord -y
+: 1606113057:0;ls ~/.local/share/JetBrains/Toolbox
+: 1606113064:0;ls ~/.local/share/JetBrains/Toolbox/apps
+: 1606113067:0;ls ~/.local/share/JetBrains/Toolbox/apps/AndroidStudio
+: 1606113071:0;ls ~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0
+: 1606113078:0;ls ~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283
+: 1606113084:0;ls ~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283/plugins
+: 1606113138:0;flutter config --android-studio-dir="~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283"
+: 1606113145:0;flutter doctor
+: 1606113157:0;flutter config --android-studio-dir="~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0"
+: 1606113160:0;flutter doctor
+: 1606113176:0;flutter config --android-studio-dir="~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283"
+: 1606113191:0;ls ~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283/plugins
+: 1606113194:0;cd ~/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6953283/plugins
+: 1606113196:0;cd ..
+: 1606113196:0;ls
+: 1606113200:0;cd .
+: 1606113201:0;ls
+: 1606113203:0;cd ..
+: 1606113204:0;ls
+: 1606113208:0;cd ..
+: 1606113209:0;ls
+: 1606113216:0;pwd
+: 1606113226:0;flutter config --android-studio-dir="/home/mzamayias/.local/share/JetBrains/Toolbox/apps/AndroidStudio"
+: 1606113234:0;flutter doctor
+: 1606113252:0;pwd
+: 1606113254:0;cd ch-0
+: 1606113256:0;ls
+: 1606113529:0;cd Downloads
+: 1606113529:0;ls
+: 1606113532:0;cd android-studio-ide-201.6953283-linux
+: 1606113532:0;ls
+: 1606113535:0;cd ..
+: 1606113539:0;rm -rf android-studio-ide-201.6953283-linux
+: 1606113540:0;clear
+: 1606113542:0;ls
+: 1606113557:0;tar -xvf android-studio-ide-201.6953283-linux.tar.gz
+: 1606113569:0;ls
+: 1606113574:0;ls android-studio
+: 1606113599:0;cp -r android-studio /usr/local
+: 1606113611:0;sudo cp -r android-studio /usr/local
+: 1606113619:0;ls /usr/local
+: 1606113634:0;cd /usr/local/android-studio/bin
+: 1606113638:0;./studio.sh
+: 1606113689:0;rm -rf /home/mzamayias/.local/share/JetBrains/Toolbox/apps/AndroidStudio
+: 1606113707:0;rm -rf /home/mzamayias/.local/share/Google/AndroidStudio4.1
+: 1606113724:0;rm -rf /home/mzamayias/.android
+: 1606113785:0;rm -rf /home/mzamayias/.config/Google/AndroidStudio4.1/
+: 1606113799:0;clear
+: 1606113816:0;sudo poweroff --force --reboot
+: 1606113876:0;cd /usr/local/android-studio/bin
+: 1606113879:0;./studio.sh
+: 1606114276:0;dc
+: 1606114279:0;cd
+: 1606114284:0;flutter doctor
+: 1606114298:0;flutter config --android-studio-dir=""
+: 1606114300:0;flutter doctor
+: 1606114313:0;flutter config --android-studio-dir="/usr/local/android-studio"
+: 1606114315:0;flutter doctor
+: 1606114594:0;flutter emulators
+: 1606114604:0;flutter emulators --launch Pixel_3a_API_30_x86
+: 1606114640:0;flutter doctor
+: 1606114648:0;clea
+: 1606114696:0;clear
+: 1606114703:0;flutter doctor
+: 1606114792:0;clear
+: 1606114801:0;flutter doctor
+: 1606115001:0;bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+: 1606115067:0;fd
+: 1606115160:0;clear
+: 1606115160:0;ls
+: 1606115163:0;fd
+: 1606115167:0;source ~/.zshrc
+: 1606115169:0;fd
+: 1606115175:0;clear
+: 1606115198:0;cd Downloads
+: 1606115198:0;ls
+: 1606115206:0;rm -rf android-studio jetbrains-toolbox-1.18.7609
+: 1606115207:0;clear
+: 1606115208:0;ls
+: 1606115215:0;clear
+: 1606115356:0;./Anaconda3-2020.11-Linux-x86_64.sh
+: 1606115366:0;zsh ./Anaconda3-2020.11-Linux-x86_64.sh
+: 1606115457:0;source ~/.zshrc
+: 1606115459:0;clear
+: 1606115462:0;exit
+: 1606115474:0;p10k configure
+: 1606115525:0;clear
+: 1606115527:0;p10k configure
+: 1606115583:0;clear
+: 1606115678:0;curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
+: 1606115696:0;echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
+: 1606115702:0;sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
+: 1606115706:0;sudo apt update
+: 1606115723:0;sudo apt install albert
+: 1606115737:0;clear
+: 1606115900:0;sudo apt remove seahorse --purge -y
+: 1606115929:0;clear
+: 1606116781:0;sudo nano /usr/share/themes/Materia-compact/gnome-shell/gnome-shell.css
+: 1606117078:0;speedtest
+: 1606118577:0;ls
+: 1606118580:0;cd ..
+: 1606118581:0;ls
+: 1606118586:0;cd AndroidStudioProjects
+: 1606118587:0;ls
+: 1606118597:0;rm -rf ./*
+: 1606118603:0;ls
+: 1606118608:0;cd; clear
+: 1606118793:0;source .zshrc
+: 1606118796:0;poweroff
+: 1606118987:0;source .zshrc
+: 1606118989:0;clear
+: 1606118989:0;ls
+: 1606119035:0;source .zshrc
+: 1606119039:0;ls
+: 1606119047:0;source .zshrc
+: 1606119052:0;ls
+: 1606119080:0;source .zshrc
+: 1606119082:0;ls
+: 1606119124:0;source .zshrc
+: 1606119126:0;ls
+: 1606119136:0;source .zshrc
+: 1606119139:0;ls
+: 1606119146:0;clear
+: 1606138530:0;mkdir Repositories
+: 1606138533:0;cd Documents
+: 1606138557:0;mkdir FlutterExperiments
+: 1606138560:0;cd FlutterExperiments
+: 1606138570:0;flutter create --help
+: 1606138603:0;flutter create GoFish
+: 1606138614:0;code GoFish -n
+: 1606138629:0;clear
+: 1606138712:0;source .zshrc
+: 1606138716:0;source ~/.zshrc
+: 1606138719:0;clear
+: 1606138722:0;fld
+: 1606138947:0;flle
+: 1606138992:0;source ~/.zshrc
+: 1606138994:0;clear
+: 1606139000:0;flr --help
+: 1606139024:0;flr
+: 1606139039:0;cd GoFish
+: 1606139040:0;clear
+: 1606139043:0;flr
+: 1606141664:0;clear;cd
+: 1606145569:0;poweroff
+: 1606146051:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606146054:0;cler
+: 1606146057:0;clear
+: 1606146067:0;ls
+: 1606146097:0;source ~/.zshrc
+: 1606146102:0;clear
+: 1606146103:0;ls
+: 1606146108:0;clear
+: 1606146149:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606146169:0;ls -G
+: 1606146173:0;clear
+: 1606147332:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606147334:0;clear
+: 1606148242:0;uname -r
+: 1606148620:0;cd Downloads
+: 1606148623:0;cd Kernels/5.9.10
+: 1606148624:0;clear
+: 1606148625:0;ls
+: 1606148632:0;rm linux-modules-5.9.10-050910-lowlatency_5.9.10-050910.202011221708_amd64.deb
+: 1606148647:0;sudo dpkg -i *.deb
+: 1606148807:0;rm *lowlatency*
+: 1606148809:0;ls
+: 1606148812:0;sudo dpkg -i *.deb
+: 1606150458:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606150459:0;clear
+: 1606150481:0;sudo apt remove --purge -y
+: 1606150498:0;apt --fix-broken install
+: 1606150503:0;sudo apt --fix-broken install
+: 1606150510:0;clear
+: 1606150519:0;rm -rf .steam
+: 1606150528:0;rm -rf Steam
+: 1606150534:0;rm -rf .steampath
+: 1606150537:0;rm -rf .steampid
+: 1606150562:0;sudo apt remove --purge -y steam
+: 1606150575:0;rm -rf .steam
+: 1606150582:0;sudo apt autoremove -y
+: 1606150586:0;claer
+: 1606150588:0;clea
+: 1606150589:0;clear
+: 1606166120:0;cd /usr/share/fonts
+: 1606166121:0;ls
+: 1606166125:0;cd truetype
+: 1606166126:0;ls
+: 1606166133:0;cd firacode
+: 1606166133:0;ls
+: 1606166201:0;sudo apt remove --purge -y fonts-firacode 
+: 1606166218:0;ls
+: 1606166220:0;cd ..
+: 1606166221:0;ls
+: 1606166222:0;clear
+: 1606166223:0;ls
+: 1606166230:0;sudo rm -rf firacode
+: 1606166274:0;fc-cache -fv
+: 1606166279:0;fc-cache -rv
+: 1606166284:0;clear
+: 1606166349:0;mkdir firacode
+: 1606166354:0;sudo mkdir firacode
+: 1606166366:0;cp ~/Downloads/ttf/* firacode
+: 1606166370:0;sudo cp ~/Downloads/ttf/* firacode
+: 1606166374:0;ls
+: 1606166377:0;ls firacode
+: 1606166379:0;clear
+: 1606166382:0;fc-cache -rv
+: 1606166394:0;sudo fc-cache -rv
+: 1606166402:0;clear
+: 1606166735:0;ls
+: 1606168646:0;clear
+: 1606168646:0;cd
+: 1606168647:0;clear
+: 1606168649:0;python
+: 1606168757:0;ipython
+: 1606176384:0;sudo apt install steam-installer -y
+: 1606176752:0;clear
+: 1606176753:0;ls
+: 1606176755:0;cd Repositories
+: 1606176758:0;git clone https://git.sr.ht/\~iank/evhz/tree/master
+: 1606176762:0;clear
+: 1606176762:0;ls
+: 1606176779:0;git clone https://git.sr.ht/\~iank/evhz
+: 1606176784:0;cd evhz
+: 1606176787:0;clear
+: 1606176788:0;ls
+: 1606176791:0;./run
+: 1606176868:0;clear
+: 1606176871:0;cat /sys/module/usbhid/parameters/mousepoll
+: 1606176899:0;echo 6 > /sys/kernel/debug/bluetooth/hci0/conn_min_interval
+: 1606176905:0;clear
+: 1606176944:0;ls /var/lib/bluetooth
+: 1606176990:0;rm /var/lib/bluetooth/C0:B6:F9:8C:4A:64
+: 1606177002:0;sudo rm -rf /var/lib/bluetooth/C0:B6:F9:8C:4A:64
+: 1606177004:0;clear
+: 1606177005:0;ls
+: 1606177007:0;cd
+: 1606177009:0;clear
+: 1606177025:0;sudo reboot
+: 1606177069:0;clear
+: 1606177459:0;sudo apt install solaar-gnome3 -y
+: 1606177618:0;fwupdmgr get-devices\
+
+: 1606177680:0;sudo apt install piper
+: 1606177808:0;cd Repositories
+: 1606177810:0;git clone https://github.com/pwr-Solaar/Solaar.git
+: 1606177815:0;cd Solaar/bin
+: 1606177817:0;ls
+: 1606177821:0;./solaar
+: 1606177835:0;sudo apt install python3-pyudev -y
+: 1606177838:0;./solaar
+: 1606177860:0;conda install python3-pyudev
+: 1606177880:0;conda install pyudev
+: 1606178187:0;udevadm control --reload
+: 1606178191:0;sudo udevadm control --reload
+: 1606178204:0;sudo udevadm trigger
+: 1606178211:0;clear
+: 1606178501:0;sudo apt install libratbag -y
+: 1606178559:0;cd Repositories/evhz
+: 1606178560:0;./run
+: 1606178585:0;clear
+: 1606178587:0;cd ..
+: 1606178590:0;rm -rf Solaar
+: 1606178602:0;sudo apt remove --purge -y solaar
+: 1606178614:0;sudo apt autoremove -y
+: 1606178645:0;clear
+: 1606178720:0;sudo apt remove piper --purge -y
+: 1606178723:0;clear
+: 1606178725:0;exit
+: 1606178826:0;clear
+: 1606178832:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606178838:0;clear
+: 1606188368:0;sudo apt install calibre -y
+: 1606190390:0;cd Documents
+: 1606190391:0;ls
+: 1606190397:0;mkdir Repositories
+: 1606190399:0;cd Repositories
+: 1606190400:0;clear
+: 1606190420:0;git clone https://github.com/mzamayias/glowing-sniffle.git
+: 1606190439:0;cd glowing-sniffle
+: 1606190440:0;clear
+: 1606190447:0;ls "Current Courses/"
+: 1606192928:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606192953:0;cd "Current Courses"
+: 1606192954:0;clear
+: 1606192955:0;ls
+: 1606192966:0;mkdir "Programming Languages"
+: 1606193040:0;cp ~"/Documents/Java/Assignment 1" ."/Programming Languages"
+: 1606193044:0;cp -r ~"/Documents/Java/Assignment 1" ."/Programming Languages"
+: 1606193051:0;ls Programming Logic\ Programming
+: 1606193067:0;ls "Programming Languages/"
+: 1606193070:0;ls "Programming Languages/Assignment 1"
+: 1606193078:0;clear
+: 1606193139:0;sudo apt install tree
+: 1606193148:0;clear
+: 1606193151:0;tree --help
+: 1606193180:0;cd "Programming Languages/Assignment 1"
+: 1606193186:0;tree .
+: 1606193258:0;tree -iC .
+: 1606193261:0;tree -C .
+: 1606193334:0;rm "Task 1/Assignment 1.iml"
+: 1606193365:0;rm -rf "Task 1/out/production/Assignment 1"
+: 1606193369:0;tree -C .
+: 1606193393:0;tree -C
+: 1606193398:0;clear
+: 1606193401:0;tree
+: 1606193412:0;cd ..
+: 1606193414:0;clear
+: 1606193417:0;git status
+: 1606193421:0;git add .
+: 1606193424:0;git status
+: 1606193452:0;code ../../
+: 1606193639:0;clear
+: 1606193900:0;ls
+: 1606193927:0;zip assignment_1-tp5000.zip "Assignment 1"
+: 1606193973:0;zip -r assignment_1-tp5000.zip "Assignment 1"
+: 1606194009:0;touch README.md
+: 1606194014:0;code README.md
+: 1606194207:0;zip assignment_1-tp5000.zip README.md
+: 1606194304:0;clear
+: 1606194311:0;rm assignment_1-tp5000.zip
+: 1606194313:0;clear
+: 1606202755:0;code -n .
+: 1606203804:0;git status
+: 1606203833:0;git add .
+: 1606203834:0;clear
+: 1606203836:0;git status
+: 1606203879:0;git checkout -b master
+: 1606203891:0;git checkout master
+: 1606203963:0;clear
+: 1606203965:0;git status
+: 1606204036:0;git add ../../.gitignore
+: 1606204037:0;clear
+: 1606204040:0;git status
+: 1606204054:0;git commit -m "modified gitignore"
+: 1606204057:0;git push
+: 1606204085:0;clear
+: 1606204087:0;git status
+: 1606204540:0;cd Assignment\ 2/Task\ 2
+: 1606204541:0;clear
+: 1606204542:0;ls
+: 1606204556:0;rm -rf out
+: 1606204558:0;cd ..
+: 1606204560:0;clear
+: 1606204561:0;ls
+: 1606204564:0;git status
+: 1606204576:0;git add .
+: 1606204578:0;clear
+: 1606204580:0;ls
+: 1606204583:0;git status
+: 1606204638:0;git commit -m "fixed task 2 of assignment 2 on programming languages directory structure"
+: 1606204642:0;git push
+: 1606204850:0;clear
+: 1606204851:0;git status
+: 1606204867:0;git add .
+: 1606204872:0;git status
+: 1606204909:0;git commit -m "added some TODOs"
+: 1606204922:0;git status
+: 1606205026:0;cd
+: 1606205027:0;clear
+: 1606205030:0;poweroff
+: 1606205210:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606205218:0;sudo apt update 
+: 1606205305:0;sudo apt-key adv --keyserver keyserver.ubuntu.com C6ABDCF64DB9A0B2
+: 1606205323:0;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C6ABDCF64DB9A0B2
+: 1606205332:0;sudo apt update 
+: 1606205369:0;cd Documents
+: 1606205380:0;touch fix_pubkey.sh
+: 1606205385:0;code fix_pubkey.sh
+: 1606205418:0;chmod +x fix_pubkey.sh
+: 1606205422:0;./fix_pubkey.sh
+: 1606205442:0;sudo ./fix_pubkey.sh
+: 1606205537:0;clear
+: 1606205604:0;./fix_pubkey.sh
+: 1606205830:0;clear
+: 1606205841:0;sudo apt remove --purge -y slack-desktop
+: 1606205853:0;sudo apt autoremove -y --purge
+: 1606205862:0;sudo apt autoclean -y --purge
+: 1606205868:0;sudo apt autoclean -y 
+: 1606205875:0;sudo apt update 
+: 1606206087:0;clear
+: 1606206090:0;./fix_pubkey.sh
+: 1606206421:0;sudo nano /etc/apt/sources.list
+: 1606206459:0;sudo nano /etc/apt/sources.list.d
+: 1606206469:0;ls /etc/apt/sources.list.d
+: 1606206486:0;sudo nano /etc/apt/sources.list.d/slack.list
+: 1606206503:0;sudo apt update 
+: 1606206526:0;sudo nano /etc/apt/sources.list.d/slack.list
+: 1606207657:0;cd "Repositories/glowing-sniffle/Current Courses/Programming Languages/Assignment 2/Task 1"
+: 1606207658:0;clear
+: 1606207659:0;ls
+: 1606207717:0;rm -rf out
+: 1606210733:0;clear
+: 1606211696:0;glxinfo | grep "OpenGL"
+: 1606211710:0;sudo apt install -y glxinfo
+: 1606211752:0;glxinfo | grep "OpenGL version"\
+\
+
+: 1606211777:0;sudo apt install -y mesa-utils
+: 1606211785:0;glxinfo | grep "OpenGL version"
+: 1606211806:0;sudo apt install obs-studio -y
+: 1606220187:0;sudo apt remove --purge -y steam
+: 1606220195:0;clear
+: 1606220238:0;rm -rf ~/.steam ~/Steam ~/.steampath ~/.steampid
+: 1606220465:0;cd Downloads/wt_launcher_linux_0.9.4.47/WarThunder
+: 1606220466:0;clear
+: 1606220466:0;ls
+: 1606220476:0;__NV_PRIME_RENDER_OFFLOAD=1 launcher
+: 1606220479:0;__NV_PRIME_RENDER_OFFLOAD=1 ./launcher
+: 1606221412:0;cd src/com/company/task_3
+: 1606221412:0;ls
+: 1606221417:0;rm StorageDevice.java
+: 1606224925:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606228313:0;clear
+: 1606228345:0;__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia ./launcher
+: 1606228762:0;__NV_PRIME_RENDER_OFFLOAD=1 ./launcher
+: 1606234538:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606249307:0;cd ../../..
+: 1606249308:0;ls
+: 1606249895:0;poweroff
+: 1606250452:0;cd Documents/Repositories/glowing-sniffle
+: 1606250467:0;cd "Current Courses/Programming Languages/"
+: 1606250468:0;ls
+: 1606250489:0;zip assignment_2-tp5000.zip "Assignment 2" README.md
+: 1606250505:0;rm assignment_2-tp5000.zip
+: 1606250506:0;clear
+: 1606250511:0;zip -r assignment_2-tp5000.zip "Assignment 2" README.md
+: 1606250555:0;cd "Assignment 2/Task 2"
+: 1606250556:0;ls
+: 1606250562:0;rm -rf out/'
+: 1606250564:0;rm -rf out/
+: 1606250566:0;cd ..
+: 1606250569:0;cd Task\ 3
+: 1606250570:0;rm -rf out/
+: 1606250571:0;clear
+: 1606250575:0;git status
+: 1606250586:0;cd ../..
+: 1606250588:0;ls
+: 1606250593:0;rm *.zip
+: 1606250594:0;ls
+: 1606250600:0;zip -r assignment_2-tp5000.zip "Assignment 2" README.md
+: 1606250667:0;rm *.zip
+: 1606250668:0;clear
+: 1606250668:0;ls
+: 1606250672:0;git status
+: 1606250674:0;exit
+: 1606250755:0;sudo apt install gparted -y
+: 1606250772:0;sudo gparted
+: 1606250842:0;cd Downloads
+: 1606250843:0;ls
+: 1606250859:0;rm -rf wt_launcher_linux_0.9.4.47
+: 1606250893:0;sudo apt autoremove --purge -y; sudo apt autoclean -y; sudo reboot
+: 1606251452:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606251465:0;xrandr --output DP-1 --gamma 0.8:0.8:0.8
+: 1606256466:0;poweroff
+: 1606310633:0;xrandr --output DP-1 --gamma 0.8:0.8:0.8
+: 1606310638:0;xrandr --output eDP-1 --gamma 0.8:0.8:0.8
+: 1606310663:0;xrandr --listactivemonitors
+: 1606310676:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606310677:0;clear
+: 1606311245:0;sudo apt install cups-pdf -y\
+
+: 1606311262:0;cd Downloads/Convert\ to\ PDF
+: 1606311263:0;clear
+: 1606311289:0;oowriter -pt pdf 2020-Mahjong-Solitaire.pptx\
+
+: 1606311414:0;sudo apt remove cups-pdf -y --purge\
+
+: 1606311429:0;sudo apt remove printer-driver-cups-pdf -y --purge
+: 1606311469:0;sudo apt-get install wv tetex-extra ghostscript -y
+: 1606311519:0;sudo apt install wv texlive-full texlive-fonts-extra texlive-fonts-recommended ghostscript -y
+: 1606312474:0;sudo apt rmeove wv ghostscript -y --purge
+: 1606312481:0;sudo apt remove wv ghostscript -y --purge
+: 1606312520:0;clear
+: 1606312551:0;sudo apt install unoconv -y
+: 1606312607:0;clear
+: 1606312621:0;unoconv --help
+: 1606312700:0;which python
+: 1606312734:0;sudo nano /usr/bin/unoconv
+: 1606312746:0;which python
+: 1606312749:0;unoconv --help
+: 1606312758:0;sudo nano /usr/bin/unoconv
+: 1606312766:0;nano /usr/bin/unoconv
+: 1606312777:0;sudo unoconv --help
+: 1606312794:0;chmod +x /usr/bin/unoconv
+: 1606312797:0;sudo chmod +x /usr/bin/unoconv
+: 1606312802:0;unoconv --help
+: 1606312810:0;sudo unoconv --help
+: 1606312825:0;clear
+: 1606312839:0;sudo apt remove --purge -y unoconv
+: 1606312851:0;sudo apt autoremove --purge -y
+: 1606312878:0;clear
+: 1606312879:0;ls
+: 1606312885:0;lowriter --headless --convert-to pdf *.pptx
+: 1606313589:0;sudo mkdir /usr/share/fonts/truetype/microsoftfonts
+: 1606313639:0;cd -r ./* /usr/share/fonts/truetype/microsoftfonts
+: 1606313649:0;sudo cd -r * /usr/share/fonts/truetype/microsoftfonts
+: 1606313655:0;sudo cp -r ./* /usr/share/fonts/truetype/microsoftfonts
+: 1606313662:0;ls /usr/share/fonts/truetype/microsoftfonts
+: 1606313669:0;sudo fc-cache -rv
+: 1606313721:0;cd ../
+: 1606313726:0;cd "Convert to PDF/"
+: 1606313727:0;ls
+: 1606313765:0;sudo apt install libreoffice-java-common
+: 1606313797:0;clear
+: 1606313820:0;lowriter --headless --convert-to pdf *.pptx
+: 1606314126:0;reboot
+: 1606314337:0;cd "Downloads/Convert to PDF"
+: 1606314337:0;ls
+: 1606314339:0;lowriter --headless --convert-to pdf *.pptx
+: 1606314679:0;sudo apt remove '^libreoffice.*'--purge -y
+: 1606314688:0;sudo apt remove '^libreoffice.*' --purge -y
+: 1606314863:0;sudo apt autoremove --purge -y
+: 1606314882:0;exit
+: 1606315188:0;pwd
+: 1606315189:0;ls
+: 1606315199:0;code -n ~/.zshrc
+: 1606315215:0;which wt
+: 1606315276:0;source ~/.zshrc
+: 1606315278:0;wt
+: 1606315294:0;source ~/.zshrc
+: 1606315296:0;wt
+: 1606316181:0;clear
+: 1606316183:0;cd
+: 1606316183:0;clear
+: 1606324301:0;wt
+: 1606337208:0;code -n ~/.zshrc
+: 1606337251:0;wt
+: 1606337300:0;[200~sudo apt-get install git libvulkan1 mesa-vulkan-drivers vulkan-utils 
+: 1606337308:0;sudo apt install git libvulkan1 mesa-vulkan-drivers vulkan-utils -y
+: 1606337329:0;sudo apt install build-essential kernel-package fakeroot libssl-dev ccache flex bison libelf-dev libncurses5-dev wget -y
+: 1606337362:0;sudo apt update
+: 1606337407:0;sudo apt-get update
+: 1606337424:0;sudo apt update
+: 1606337446:0;sudo apt upgrade -y
+: 1606337495:0;sudo apt install build-essential fakeroot libssl-dev ccache flex bison libelf-dev libncurses5-dev wget -y
+: 1606337543:0;sudo apt install cmake python3 python-minimal python-mako python3-mako pkg-config libexpat1-dev libxrandr-dev libdrm-dev libxdamage-dev libxcb-glx0-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev libxxf86vm-dev libx11-xcb-dev ninja-build -y
+: 1606337558:0;sudo apt install cmake python3 pkg-config libexpat1-dev libxrandr-dev libdrm-dev libxdamage-dev libxcb-glx0-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev libxxf86vm-dev libx11-xcb-dev ninja-build -y
+: 1606337933:0;wt
+: 1606338198:0;rm -rf  WarThunder/linux64/
+: 1606338201:0;wt
+: 1606374060:0;poweroff
+: 1606374235:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606386452:0;cd /home/mzamayias/Documents/Repositories/glowing-sniffle/Current\ Courses/Agile\ Programming/Assignments/python/Assignment\ 3
+: 1606386453:0;cd ..
+: 1606386462:0;cd Semester\ Project
+: 1606386463:0;clear
+: 1606386478:0;flutter create game_2048
+: 1606386499:0;fld
+: 1606386560:0;flutter upgrade beta; flutter upgrade; flutter config --enable-web
+: 1606386607:0;flutter create .
+: 1606386616:0;cd game_2048
+: 1606386617:0;flutter create .
+: 1606386628:0;flutter build web
+: 1606386811:0;flutter upgrade beta; flutter upgrade; flutter config --enable-web
+: 1606386882:0;cd
+: 1606386887:0;cd Development/flutter
+: 1606386889:0;clear
+: 1606386889:0;ls
+: 1606386912:0;git remote get-url origin
+: 1606386936:0;flutter channel beta
+: 1606386977:0;cd ..
+: 1606387003:0;rm -rf flutter
+: 1606387015:0;git clone https://github.com/flutter/flutter.git -b beta --depth 1\
+
+: 1606387026:0;fld
+: 1606387111:0;flutter upgrade beta; flutter upgrade; flutter config --enable-web
+: 1606387161:0;flutter devices
+: 1606387168:0;exit
+: 1606387172:0;flutter build web
+: 1606387193:0;flutter create .
+: 1606387216:0;flutter build web
+: 1606387486:0;code -n .
+: 1606387499:0;cd ../../../..
+: 1606387501:0;clear
+: 1606387502:0;ls
+: 1606387504:0;git status
+: 1606389035:0;sudo apt install inkscape -y
+: 1606395867:0;cd "Current Courses/Agile Programming/Semester Project"
+: 1606395868:0;ls
+: 1606395870:0;rm -rf game_2048
+: 1606395903:0;code ~/.zshrc
+: 1606395939:0;source ~/.zshrc
+: 1606395941:0;clear
+: 1606400354:0;flle
+: 1606401392:0;flr --help
+: 1606401412:0;flr 
+: 1606402696:0;code ~/.zshrc
+: 1606402786:0;poweroff
+: 1606413827:0;sudo apt install steam-installer-y
+: 1606413830:0;sudo apt install steam-installer -y
+: 1606413850:0;clear
+: 1606413851:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606415548:0;poweroff
+: 1606423456:0;flr
+: 1606423952:0;flle
+: 1606423967:0;flr
+: 1606424024:0;clear
+: 1606424028:0;flle
+: 1606424642:0;flr
+: 1606427745:0;poweroff
+: 1606457190:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606457346:0;clear
+: 1606457487:0;flr
+: 1606460180:0;cd Development/flutter
+: 1606460181:0;ls
+: 1606460192:0;flutter channel dev
+: 1606460210:0;cd ..
+: 1606460231:0;rm -rf flutter
+: 1606460239:0;git clone https://github.com/flutter/flutter.git -b dev --depth 1\
+
+: 1606460264:0;flutter upgrade
+: 1606460356:0;exit
+: 1606460802:0;source ~/.zshrc
+: 1606460806:0;flu
+: 1606460844:0;source ~/.zshrc
+: 1606460848:0;flde
+: 1606460939:0;flutter config --enable-windows-desktop
+: 1606460947:0;flutter config --enable-linux-desktop
+: 1606460954:0;flde
+: 1606460962:0;clear
+: 1606460964:0;cd
+: 1606460974:0;cd AndroidStudioProjects/another_2048_game
+: 1606460982:0;flc .
+: 1606461122:0;fld --precache
+: 1606461138:0;flutter --precache
+: 1606461147:0;fldo --precache
+: 1606461826:0;sudo apt install clang cmake ninja-build pkg-config libgtk-3-dev libblkid-dev liblzma-dev -y
+: 1606462109:0;clear
+: 1606462112:0;flde
+: 1606462272:0;clear
+: 1606462274:0;flle
+: 1606462281:0;flde
+: 1606466603:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606467842:0;poweroff
+: 1606510516:0;wt
+: 1606573826:0;ls
+: 1606573882:0;cd .steam/debian-installation/steamapps/
+: 1606573884:0;clear
+: 1606573884:0;ls
+: 1606573888:0;cd com
+: 1606573892:0;cd common/
+: 1606573893:0;clear
+: 1606573894:0;ls
+: 1606574102:0;cd WarThunder
+: 1606574102:0;ls
+: 1606574742:0;cp -r ~/WarThunder/* ./War\ Thunder/
+: 1606574988:0;ls "War Thunder"
+: 1606584179:0;fllde
+: 1606584182:0;flde
+: 1606584250:0;[200~adb kill-server
+: 1606584256:0;adb kill-server
+: 1606584263:0;sudo apt install adb fastboot -y
+: 1606584298:0;clear
+: 1606584300:0;adb kill-server
+: 1606584322:0;flde
+: 1606584328:0;adb kill-server
+: 1606584346:0;sudo adb start-server anaconda3/translations
+: 1606584349:0;sudo adb start-server
+: 1606584356:0;adb kill-server
+: 1606584358:0;sudo adb start-server
+: 1606584367:0;flde
+: 1606584386:0;adb kill-server
+: 1606584388:0;sudo adb start-server
+: 1606584394:0;adb kill-server
+: 1606584395:0;sudo adb start-server
+: 1606584415:0;adb kill-server
+: 1606584416:0;sudo adb start-server
+: 1606584476:0;adb kill-server
+: 1606584478:0;sudo adb start-server
+: 1606585022:0;adb kill-server
+: 1606585028:0;adb kill-server; sudo adb start-server
+: 1606585151:0;flde
+: 1606585156:0;clear
+: 1606601029:0;sudo gparted
+: 1606602212:0;sudo nano /etc/sysctl.conf
+: 1606602290:0;sudo swapon --show
+: 1606602323:0;sudo fallocate -l 20G /swapfile
+: 1606602346:0;sudo chmod 600 /swapfile
+: 1606602354:0;sudo mkswap /swapfile
+: 1606602365:0;sudo swapon /swapfile
+: 1606602576:0;ls
+: 1606602582:0;wt
+: 1606604734:0;clear
+: 1606604737:0;sudo swapon /swapfile
+: 1606604786:0;swapoff /dev/nvme0n1p3
+: 1606604791:0;sudo swapoff /dev/nvme0n1p3
+: 1606604793:0;sudo swapon /swapfile
+: 1606604807:0;sudo mkswap /dev/nvme0n1p3
+: 1606604816:0;sudo swapon /dev/nvme0n1p3
+: 1606604848:0;sudo nano /etc/fstab
+: 1606604896:0;sudo swapon --show
+: 1606604912:0;sudo swapoff -v /swapfile
+: 1606604917:0;sudo rm /swapfile
+: 1606604919:0;sudo swapon --show
+: 1606604925:0;clear
+: 1606604940:0;cat /proc/sys/vm/swappiness
+: 1606604952:0;sudo sysctl vm.swappiness=100
+: 1606604954:0;cat /proc/sys/vm/swappiness
+: 1606604972:0;sudo poweroff
+: 1606605170:0;sudo sysctl vm.swappiness=100
+: 1606605178:0;cat /proc/sys/vm/swappiness
+: 1606605189:0;sudo nano /etc/fstab
+: 1606605217:0;sudo swapon --show
+: 1606605223:0;sudo swapon /dev/nvme0n1p3
+: 1606605226:0;sudo swapon --show
+: 1606605236:0;cat /proc/sys/vm/swappiness
+: 1606605239:0;sudo sysctl vm.swappiness=100
+: 1606605297:0;sudo nano /etc/fstab
+: 1606605329:0;poweroff -r
+: 1606605358:0;poweroff
+: 1606605777:0;sudo kernelstub -a "resume=UUID=0899cae1-2ad2-4b44-bd91-e1831efc7169"
+: 1606605814:0;sudo echo 'sudo kernelstub -a "resume=UUID=0899cae1-2ad2-4b44-bd91-e1831efc7169"' >> /etc/initramfs-tools/conf.d/
+: 1606605827:0;sudo echo 'sudo kernelstub -a "resume=UUID=0899cae1-2ad2-4b44-bd91-e1831efc7169"' >> /etc/initramfs-tools/conf.d/resume
+: 1606605852:0;sudo nano /etc/initramfs-tools/conf.d/resume
+: 1606605879:0;ls /etc/initramfs-tools
+: 1606605885:0;ls /etc/initramfs-tools/conf.d/
+: 1606605888:0;ls /etc/initramfs-tools/conf.d/resume
+: 1606605897:0;sudo update-initramfs -u
+: 1606606100:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606606171:0;sudo apt install pm-utils hibernate -y
+: 1606606260:0;sudo apt install pm-utils -y
+: 1606606267:0;sudo apt install pm-utils hibernate -y
+: 1606606314:0;cat /sys/power/state
+: 1606606330:0;free -h\
+
+: 1606606363:0;cat /proc/swaps
+: 1606606401:0;findmnt -no UUID -T /swapfile\
+
+: 1606606423:0;findmnt -no UUID -T /dev/nvme0n1p3\
+
+: 1606606497:0;sudo kernelstub -a "resume=UUID=0899cae1-2ad2-4b44-bd91-e1831efc7169"
+: 1606606513:0;sudo nano /etc/initramfs-tools/conf.d/resume
+: 1606606531:0;sudo update-initramfs -u\
+
+: 1606606563:0;sudo systemctl hibernate
+: 1606606620:0;clear
+: 1606606662:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606606700:0;clear
+: 1606607099:0;code ~/.zshrc
+: 1606607240:0;source ~/.zshrc
+: 1606607244:0;hibernate
+: 1606607442:0;exit
+: 1606607489:0;wt
+: 1606607549:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606607564:0;wt
+: 1606608670:0;sudo apt install lutris -y
+: 1606609218:0;clear
+: 1606609228:0;sudo apt-get purge '*nvidia*' -y
+: 1606609357:0;sudo apt install -y nvidia-driver-455
+: 1606609480:0;poweroff
+: 1606609663:0;wt
+: 1606611018:0;clear
+: 1606611046:0;sudo apt-get purge '*nvidia*' -y
+: 1606611114:0;sudo apt install -y nvidia-driver-450
+: 1606611268:0;sudo apt-get purge '*nvidia*' -y
+: 1606611360:0;sudo apt install -y nvidia-driver-435
+: 1606611735:0;sudo apt-get purge '*nvidia*' -y
+: 1606611932:0;reboot
+: 1606612091:0;sudo apt install -y nvidia-driver-435
+: 1606612212:0;t
+: 1606612213:0;wt
+: 1606613013:0;sysctl dev.i915.perf_stream_paranoid=0
+: 1606613018:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606613020:0;clear
+: 1606613021:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606613023:0;wt
+: 1606613061:0;clear
+: 1606613073:0;sudo apt purge '*nvidia*' -y
+: 1606613169:0;sudo apt install nvidia-graphics-drivers-455 nvidia-driver-455 -y
+: 1606613175:0;sudo apt install nvidia-driver-455 -y
+: 1606613276:0;clear
+: 1606613510:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606613513:0;wt
+: 1606618946:0;python 2048.py
+: 1606622250:0;ls
+: 1606622252:0;cd Documents
+: 1606622252:0;ls
+: 1606622267:0;rm CONTRIBUTING.md Rakefile
+: 1606622268:0;clear
+: 1606622268:0;ls
+: 1606622280:0;unzip 2048.zip
+: 1606622284:0;clear
+: 1606670385:0;dart "/home/mzamayias/AndroidStudioProjects/another_2048_game/lib/main.dart"
+: 1606672442:0;poweroff
+: 1606672600:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606672605:0;wt
+: 1606688785:0;hibernate
+: 1606715030:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606715032:0;exit
+: 1606715334:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606715373:0;ls
+: 1606715381:0;cd Downloads
+: 1606715381:0;ls
+: 1606715395:0;touch install_spotify.sh
+: 1606715399:0;nano install_spotify.sh
+: 1606715446:0;chmod +x install
+: 1606715449:0;chmod +x install_spotify.sh
+: 1606715453:0;./install_spotify.sh
+: 1606715984:0;sudo apt update
+: 1606716030:0;curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -\
+\
+
+: 1606716036:0;./install_spotify.sh
+: 1606716051:0;curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -\
+\
+
+: 1606716059:0;sudo apt update
+: 1606716129:0;curl -sS https://download.spotify.com/debian/pubkey_D1742AD60D811D58.gpg | sudo apt-key add -
+: 1606716136:0;curl -sS https://download.spotify.com/debian/D1742AD60D811D58.gpg | sudo apt-key add -
+: 1606716259:0;sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com D1742AD60D811D58
+: 1606716267:0;sudo apt update
+: 1606716332:0;sudo nano /etc/apt/sources.list.d/spotify.list
+: 1606716341:0;sudo apt update
+: 1606716411:0;sudo apt-key del 0D811D58
+: 1606716421:0;sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com D1742AD60D811D58
+: 1606716426:0;sudo nano /etc/apt/sources.list.d/spotify.list
+: 1606716431:0;sudo nano /etc/apt/sources.list
+: 1606716463:0;sudo apt update
+: 1606716480:0;sudo nano /etc/apt/sources.list
+: 1606716487:0;clear
+: 1606716491:0;sudo apt update
+: 1606716581:0;cd
+: 1606716583:0;cd Repositories
+: 1606716584:0;ls
+: 1606716593:0;git clone https://github.com/q3aql/spotify-deb-install.git
+: 1606716598:0;cd spotify-deb-install
+: 1606716607:0;chmod +x spotify-deb-install 
+: 1606716615:0;./spotify-deb-install
+: 1606716623:0;sudo ./spotify-deb-install
+: 1606716841:0;wt
+: 1606722518:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606722522:0;exit
+: 1606753148:0;wt
+: 1606766854:0;exit
+: 1606770861:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606778448:0;hibernate
+: 1606783166:0;cd Repositories
+: 1606783169:0;git clone https://github.com/srijankrs/pub-rep.git
+: 1606783172:0;cd pub-rep
+: 1606783174:0;clear
+: 1606783175:0;ls
+: 1606783188:0;mv flutter_2048 ../
+: 1606783191:0;cd ..
+: 1606783193:0;ls
+: 1606783196:0;rm -rf pub-rep
+: 1606783198:0;clear
+: 1606783198:0;ls
+: 1606783211:0;code -n flutter_2048
+: 1606783450:0;exit
+: 1606784512:0;cd Repositories
+: 1606784516:0;git clone https://github.com/bedardjo/f2048.git
+: 1606784521:0;cd f2048
+: 1606784523:0;clear
+: 1606784530:0;code -n .
+: 1606787231:0;dart "/home/mzamayias/Repositories/f2048/lib/grid-properties.dart"
+: 1606824394:0;wt
+: 1606824476:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606824478:0;wt
+: 1606831402:0;poweroff
+: 1606891994:0;ls
+: 1606891997:0;python 2048.py
+: 1606892008:0;exit
+: 1606892474:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606892477:0;wt
+: 1606894569:0;python 2048.py
+: 1606895745:0;python other_2048.py
+: 1606896131:0;wt
+: 1606896915:0;python other_2048.py
+: 1606896956:0;ls
+: 1606897162:0;python -u "/home/mzamayias/PycharmProjects/pygame-2048/main.py"
+: 1606897176:0;conda install pygame
+: 1606897215:0;pip install pygame
+: 1606897299:0;clear
+: 1606897303:0;python main.py
+: 1606910474:0;poweroff
+: 1606945185:0;poweroff 
+: 1606945384:0;clear
+: 1606945390:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606945757:0;wt
+: 1606946091:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1606946093:0;wt
+: 1606946817:0;clear
+: 1606946819:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8
+: 1606947177:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1606950177:0;cd 'Documents/Repositories/glowing-sniffle/Current Courses/Agile Programming/'
+: 1606950179:0;clear
+: 1606950196:0;ls
+: 1606950200:0;cd Assignments
+: 1606950201:0;ls
+: 1606950251:0;clear
+: 1606950340:0;ls
+: 1606950356:0;rm -rf java
+: 1606950359:0;ls python
+: 1606950379:0;mv -r python/* .
+: 1606950385:0;mv python/* .
+: 1606950386:0;ls
+: 1606950391:0;rm -rf python
+: 1606950393:0;clear
+: 1606950418:0;cd ../../../..
+: 1606950424:0;cd glowing-sniffle
+: 1606950426:0;clear
+: 1606950434:0;git status
+: 1606950466:0;git add .
+: 1606950468:0;clear
+: 1606950474:0;git status
+: 1606950498:0;git commit -m "changed the directory structure"
+: 1606950501:0;git push
+: 1606950543:0;clear
+: 1606950555:0;cd 'Current Courses/Agile Programming/Assignments/Assignment 1'
+: 1606950556:0;ls
+: 1606978690:0;poweroff
+: 1606978905:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1606982811:0;sudo apt install audacity -y
+: 1606982879:0;cd Repositories
+: 1606982889:0;cd noise-repellent
+: 1606983079:0;sudo apt update -y
+: 1606983113:0;sudo apt install lv2-dev -y
+: 1606983134:0;where lv2
+: 1606983139:0;which lv2
+: 1606983173:0;clear
+: 1606983198:0;cd
+: 1606983206:0;ls -A
+: 1606983232:0;ls /usr/local/lib
+: 1606983256:0;cd Repositories/noise-repellent
+: 1606983257:0;clear
+: 1606983340:0;ls
+: 1606983344:0;make
+: 1606983384:0;meson build -help
+: 1606983398:0;sudo apt install meson -y
+: 1606983447:0;sudo apt install -y ninja-build 
+: 1606983453:0;cd Repositories/noise-repellent
+: 1606983454:0;clear
+: 1606983455:0;ls
+: 1606983477:0;sudo apt install -y fftw-dev 
+: 1606983508:0;sudo apt install -y lv2 lv2-dev
+: 1606983512:0;sudo apt install -ylv2-dev
+: 1606983515:0;sudo apt install -y lv2-dev
+: 1606983523:0;sudo apt install -y '^lv2*'
+: 1606983538:0;meson --help
+: 1606983546:0;meson build --help
+: 1606983576:0;cd
+: 1606983578:0;pwd
+: 1606983584:0;meson build --buildtype release --prefix /home/mzamayias
+: 1606983664:0;cd Downloads/fftw-3.3.8
+: 1606983665:0;clear
+: 1606983686:0;./configure
+: 1606983703:0;make
+: 1606983822:0;make install
+: 1606983829:0;sudo make
+: 1606983836:0;sudo make install
+: 1606983845:0;meson build --buildtype release --prefix /home/mzamayias
+: 1606983870:0;cd Repositories/noise-repellent
+: 1606983872:0;meson build --buildtype release --prefix /home/mzamayias
+: 1606983984:0;sudo apt install -y build-essential
+: 1606983987:0;clear
+: 1606984000:0;meson build --buildtype release --prefix /home/mzamayias
+: 1606984153:0;cd 
+: 1606984157:0;cd Downloads/fftw-3.3.8
+: 1606984157:0;clear
+: 1606984158:0;ls
+: 1606984184:0;./configure && make && make check && make install
+: 1606984774:0;./configure && make && make check && sudo make install
+: 1606984938:0;clear
+: 1606984942:0;meson build --buildtype release --prefix /home/mzamayias
+: 1606985315:0;cmak
+: 1606985316:0;cmake
+: 1606985644:0;sudo ./configure --enable-long-double --enable-threads --disable-fortran && make && make check && sudo make install
+: 1606985652:0;./configure --enable-long-double --enable-threads --disable-fortran && make && make check && sudo make install
+: 1606985682:0;./configure --enable-long-double --enable-threads --disable-fortran && make && make check && sudo make install \
+
+: 1606986558:0;ckear
+: 1606986559:0;clear
+: 1606986560:0;ls
+: 1606986565:0;meson build --buildtype release --prefix /home/mzamayias
+: 1606986580:0;cd
+: 1606986582:0;ls
+: 1606986585:0;ls -A
+: 1606986595:0;ls /usr/local
+: 1606986602:0;ls /usr/local/lib
+: 1606986616:0;ls -A
+: 1606992999:0;which youtube-dl
+: 1606993006:0;sudo apt install -y youtube-dl
+: 1606993663:0;youtube-dl --help
+: 1606993674:0;youtube-dl --list-formats https://player.vimeo.com/video/291556680
+: 1606993812:0;youtube-dl --format "bestvideo+bestaudio" --output "~/Videos/%(title)s.%(ext)s" https://player.vimeo.com/video/291556680
+: 1606993871:0;vlc Videos/CRSPR-Cas9.mp4
+: 1606993883:0;du -h Videos
+: 1606993890:0;du -h Videos/CRSPR-Cas9.mp4
+: 1607006141:0;clear
+: 1607006144:0;cd Downloads
+: 1607006148:0;rm -rf fftw-3.3.8
+: 1607006152:0;fm fftw-3.3.8.tar.gz
+: 1607006156:0;rm fftw-3.3.8.tar.gz
+: 1607006157:0;clear
+: 1607006158:0;cd
+: 1607006162:0;cd Repositories
+: 1607006169:0;rm -rf noise-repellent
+: 1607006171:0;clear
+: 1607006172:0;cd
+: 1607006173:0;clear
+: 1607006176:0;exit
+: 1607011729:0;sudo sysctl dev.i915.perf_stream_paranoid=0
+: 1607011734:0;which youtube-dl
+: 1607011739:0;wt
+: 1607037070:0;sudo gnome-disks
+: 1607037087:0;sudo gnome-disk-image-mounter
+: 1607043584:0;poweroff
+: 1607044438:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607046134:0;sudo apt install python3.8-dev -y\
+
+: 1607046209:0;conda install -c anaconda cython
+: 1607046244:0;clear
+: 1607046743:0;locate * | grep "pycharm"
+: 1607046797:0;cd .local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/202.8194.22/bin/
+: 1607046798:0;ls
+: 1607046803:0;pwd
+: 1607046819:0;cd ..
+: 1607046820:0;clear
+: 1607046820:0;ls
+: 1607046826:0;cd plugins
+: 1607046827:0;ls
+: 1607046853:0;cd python/helpers/pydev
+: 1607046854:0;ls
+: 1607046867:0;pwd
+: 1607046885:0;clear
+: 1607046889:0;python /home/mzamayias/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/202.8194.22/plugins/python/helpers/pydev/setup_cython.py build_ext --inplace
+: 1607047030:0;clear
+: 1607047031:0;ls
+: 1607047041:0;clear
+: 1607047310:0;ls
+: 1607047313:0;python task1.py
+: 1607047344:0;clear
+: 1607053128:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607055009:0;xrandr --output eDP-1-1 --gamma 0.7:0.7:0.7 && clear
+: 1607055061:0;cd Repositories
+: 1607055065:0;git clone https://github.com/mzamayias/solid.python.git
+: 1607055070:0;cd solid.python
+: 1607055074:0;code -n .
+: 1607057661:0;clear
+: 1607057667:0;exit
+: 1607057670:0;clear
+: 1607057682:0;cd Assignment2
+: 1607057682:0;clear
+: 1607057683:0;ls
+: 1607057693:0;python Human.py
+: 1607095090:0;hibernate
+: 1607097107:0;xrandr --output eDP-1-1 --gamma 0.7:0.7:0.7 && clear
+: 1607097121:0;cd Documents/Repositories
+: 1607097122:0;clear
+: 1607097123:0;ls
+: 1607097201:0;code -n .
+: 1607097211:0;code -n
+: 1607098130:0;clear
+: 1607098131:0;cd 
+: 1607098132:0;;s
+: 1607098138:0;cd Documents/Repositories
+: 1607098145:0;ls
+: 1607098147:0;cd fluffy-doodle
+: 1607098148:0;clear
+: 1607098716:0;./studio.sh
+: 1607098794:0;clear
+: 1607104688:0;ls
+: 1607104690:0;code -n .
+: 1607104693:0;xrandr --output eDP-1-1 --gamma 0.7:0.7:0.7 && clear
+: 1607104771:0;ls
+: 1607104774:0;git status
+: 1607104780:0;git add .
+: 1607104934:0;git commit -m "updated a pubspec file"
+: 1607104940:0;git push
+: 1607104959:0;git pull
+: 1607104969:0;git push
+: 1607104993:0;clear
+: 1607105477:0;ipython
+: 1607105902:0;clear
+: 1607105903:0;ls
+: 1607105904:0;cd first_fluffy
+: 1607105905:0;ls
+: 1607105906:0;clear
+: 1607105917:0;fllr
+: 1607105926:0;code -n ~/.zshrc
+: 1607105945:0;clear && flr
+: 1607108838:0;ls /usr/local/
+: 1607108841:0;ls /usr/local/android-studio
+: 1607111545:0;clear
+: 1607216112:0;xrandr --output eDP-1-1 --gamma 0.7:0.7:0.7 && clear
+: 1607222410:0;poweroff
+: 1607305686:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607305693:0;sudo apt install tilix -y
+: 1607305788:0;sudo apt remove --purge -y '^gnome-terminal.*'
+: 1607305802:0;sudo apt remove -y '^gnome-terminal.*'
+: 1607305863:0;sudo apt remove -y '^gnome-terminal.*' --allow-remove-essential
+: 1607305883:0;sudo apt install pop-desktop-y
+: 1607305887:0;sudo apt install pop-desktop -y
+: 1607305899:0;clear
+: 1607306183:0;sudo apt purge -y lutris albert gdebi mpv '^wine.*' vprerex 
+: 1607306219:0;sudo apt install texlive-full -y
+: 1607307412:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607307424:0;exit
+: 1607307451:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607309357:0;exit
+: 1607310396:0;conda install -c jkroes spotipy
+: 1607310498:0;conda install spotipy\
+\
+
+: 1607310572:0;clear
+: 1607310658:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607312687:0;exit
+: 1607312716:0;sudo apt install openjdk-8
+: 1607312732:0;sudo apt install openjdk-8-jdk -y
+: 1607313456:0;curl -fsSL https://starship.rs/install.sh | bash\
+
+: 1607313491:0;code ~/.zshrc
+: 1607313521:0;exit
+: 1607313669:0;clear
+: 1607313679:0;exit
+: 1607313687:0;clear
+: 1607313714:0;code ~/.zshrc
+: 1607313732:0;clear
+: 1607313886:0;which python
+: 1607313891:0;where python
+: 1607313898:0;where which
+: 1607313905:0;which python
+: 1607313919:0;which /home/mzamayias/anaconda3/bin/python
+: 1607313924:0;where /home/mzamayias/anaconda3/bin/python
+: 1607313930:0;python --verion
+: 1607313931:0;clear
+: 1607313933:0;python --version
+: 1607314055:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607314150:0;clear
+: 1607314152:0;exit
+: 1607314182:0;clear
+: 1607314185:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607315775:0;exit
+: 1607315865:0;sudo update-alternatives --config x-terminal-emulator
+: 1607315890:0;exit
+: 1607319895:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607364434:0;GDK_SCALE=2 steam
+: 1607364454:0;clear
+: 1607364455:0;GDK_SCALE=2 steam
+: 1607364913:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607365412:0;clear
+: 1607383668:0;cd Desktop
+: 1607383669:0;ls
+: 1607383681:0;cd ..
+: 1607383690:0;code -n read_history.py
+: 1607383897:0;ls
+: 1607383899:0;ls -A
+: 1607384005:0;python -u "/home/mzamayias/read_history.py"
+: 1607384076:0;clear
+: 1607384098:0;python -u "/home/mzamayias/read_history.py"
+: 1607384174:0;clear
+: 1607384176:0;python -u "/home/mzamayias/read_history.py"
+: 1607384288:0;ls -A
+: 1607384293:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607384337:0;python -u "/home/mzamayias/read_history.py"
+: 1607384972:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607385002:0;python -u "/home/mzamayias/read_history.py"
+: 1607385235:0;clear
+: 1607385236:0;python -u "/home/mzamayias/read_history.py"
+: 1607387453:0;xrandr --output eDP-1-1 --gamma 0.8:0.8:0.8 && clear
+: 1607431330:0;ls
+: 1607431347:0;cd Documents/Repositories/
+: 1607431373:0;git clone https://github.com/mzamayias/expert-palm-tree.git
+: 1607431380:0;cd expert-palm-tree
+: 1607431381:0;clear
+: 1607431391:0;exit
+: 1607431513:0;lear
+: 1607431514:0;clear
+: 1607431517:0;ls
+: 1607431533:0;exit
+: 1607431543:0;pwd
+: 1607431548:0;ls *.py
+: 1607431566:0;ls
+: 1607431568:0;cd Scripts
+: 1607431569:0;ls
+: 1607431576:0;cd ..
+: 1607431584:0;mkdir python-scripts
+: 1607431587:0;cd python
+: 1607431589:0;cd python-scripts
+: 1607431591:0;pwd
+: 1607431599:0;cp -r *.py /home/mzamayias/Documents/Repositories/expert-palm-tree/python-scripts
+: 1607431602:0;ls
+: 1607431604:0;clear
+: 1607431613:0;exit
+: 1607431832:0;rm ~/*.py
+: 1607431834:0;clear
+: 1607431834:0;ls
+: 1607431909:0;cp ~/.zsh_history ~/zsh_history.txt
