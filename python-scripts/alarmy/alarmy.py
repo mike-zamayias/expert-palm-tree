@@ -8,7 +8,7 @@ alarm_time = [5, 30]
 print(f'Alarm time:\t{alarm_time[0]:02d}:{alarm_time[1]:02d}')
 
 while True:
-    current_time = [datetime.now.hour, datetime.now.minute]
+    current_time = [datetime.now().hour, datetime.now().minute]
     print(f'\rCurrent time:\t{current_time[0]:02d}:{current_time[1]:02d}', end='\r')
     if current_time == alarm_time:
         break
